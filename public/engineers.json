@@ -1,0 +1,62 @@
+ [
+  {
+    "id": 302021001,
+    "name": "A.B Rafiq",
+    "jobExperience": 5,
+    "position": "Design",
+    "expectedSalary": 4000,
+    "email": "abc@afr.rt",
+    "bidAmount": 28500,
+    "avater": "https://www.usnews.com/dims4/USNEWS/2bdca58/2147483647/crop/279x279%2B118%2B0/resize/300x300/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fc1%2Faae354802f5cc40b6fcd70d056adbc%2Fjobs-job-photo-42.jpg"
+  },
+  {
+    "id": 302021002,
+    "name": "JR Tony",
+    "jobExperience": 8,
+    "position": "Project mangement",
+    "expectedSalary": 4300,
+    "email": "def@afr.io",
+    "bidAmount": 32000,
+    "avater": "https://www.usnews.com/dims4/USNEWS/2bdca58/2147483647/crop/279x279%2B118%2B0/resize/300x300/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fc1%2Faae354802f5cc40b6fcd70d056adbc%2Fjobs-job-photo-42.jpg"
+  },
+  {
+    "id": 302021003,
+    "name": "Rashed tulted",
+    "jobExperience": 10,
+    "position": "Assembly",
+    "expectedSalary": 4000,
+    "email": "abc@afr.rt",
+    "bidAmount": 30000,
+    "avater": "https://www.usnews.com/dims4/USNEWS/2bdca58/2147483647/crop/279x279%2B118%2B0/resize/300x300/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fc1%2Faae354802f5cc40b6fcd70d056adbc%2Fjobs-job-photo-42.jpg"
+  },
+  {
+    "id": 302021004,
+    "name": "Soid werdeer",
+    "jobExperience": 25,
+    "position": "Rover development",
+    "expectedSalary": 6000,
+    "email": "abc@afr.rt",
+    "bidAmount": 50000,
+    "avater": "https://www.usnews.com/dims4/USNEWS/2bdca58/2147483647/crop/279x279%2B118%2B0/resize/300x300/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fc1%2Faae354802f5cc40b6fcd70d056adbc%2Fjobs-job-photo-42.jpg"
+  },
+  {
+    "id": 302021005,
+    "name": "Safiq hoq",
+    "jobExperience": 14,
+    "position": "Assistant Engineer",
+    "expectedSalary": 2500,
+    "email": "atyitc@aer.rt",
+    "bidAmount": 20000,
+    "avater": "https://www.usnews.com/dims4/USNEWS/2bdca58/2147483647/crop/279x279%2B118%2B0/resize/300x300/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fc1%2Faae354802f5cc40b6fcd70d056adbc%2Fjobs-job-photo-42.jpg"
+  },
+  {
+    "id": 302021006,
+    "name": "Tr Sadman",
+    "jobExperience": 17,
+    "position": "Rocket luncer",
+    "expectedSalary": 5500,
+    "email": "aqqqwc@aqeer.rrt",
+    "bidAmount": 35000,
+    "avater": "https://www.usnews.com/dims4/USNEWS/2bdca58/2147483647/crop/279x279%2B118%2B0/resize/300x300/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fc1%2Faae354802f5cc40b6fcd70d056adbc%2Fjobs-job-photo-42.jpg"
+  }
+]
