@@ -4,15 +4,16 @@ import './cart.css'
 
 const Cart = (props) => {
     const {selects} = props;
-    let totalAmount = 0;
-    for(const select of selects){
-        totalAmount = totalAmount + select.bidAmount;
-    }
+    // sumup the total amount for selected candidates 
+    const bidReducer = (previous,current) => previous + current.bidAmount;
+    const totalAmount = selects.reduce(bidReducer,0)
     return (
         <div className='cart-info'>
             <h3><u>Selected Candidates</u></h3>
             <p>Total select: <strong>{selects.length}</strong></p>
             <p>Total Bid Amount: <strong>${totalAmount}</strong></p> 
+
+            {/* Represent the selected candidates  */}
             <div className="token-container">
                 {
                     selects.map(select => <SelectedEngineer key={select.id} select={select}></SelectedEngineer>)

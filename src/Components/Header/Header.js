@@ -11,7 +11,6 @@ const Header = () => {
                 <h2 className='project-budget'>Total Budget $800 million</h2>
             </div>
             <img className='banner' src={Banner} alt="" />
-            
         </div>
     );
 };

@@ -4,7 +4,6 @@ import { IoCheckmarkDoneSharp } from "react-icons/io5";
 
 const SelectedEngineer = (props) => {
     const {avater, name} = props.select;
-    console.log(props.select);
     return (
         <div className='card-token'>
             <img className="token-img" src={avater} alt="" />

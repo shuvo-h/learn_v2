@@ -1,5 +1,5 @@
 
-![Logo](/logo.png)
+![Logo](/public/logo.png)
 
     
 # Asian Satellite 2
