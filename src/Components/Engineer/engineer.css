@@ -14,6 +14,8 @@
     margin: auto;
     border: 1px dashed lightskyblue;
 }
+
+/* background profile style  */
 .info{
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -21,6 +23,8 @@
 .profile-name{
     text-align: center;
 }
+
+/* select candidate are style  */
 .select-amount{
     position: relative;
     top: 50%;
@@ -39,6 +43,7 @@
     font-weight: 700;
     color: rgb(42, 97, 216);
 }
+/* button style  */
 .btn-regular{
     background-color: lightskyblue;
     border-radius: 8px;

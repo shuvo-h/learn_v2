@@ -1,9 +1,12 @@
+/* Header style  */
 .header-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr 1fr;
     text-align: center;
     align-items: center;
     background-image: url(../../images/header-cover.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 .header-container h1{
     font-family: cursive;
@@ -14,10 +17,15 @@
 .project-budget{
     margin-top: 0;
     transform: translateX(15%);
-    color: rgb(76, 200, 76);
+    display: inline-block;
+    color: rgb(171, 230, 34);
     font-style: italic;
 }
+
+/* banner style  */
 .banner{
     height: 180px;
-    display: block;
+}
+.banner-1{
+    margin-left: auto;
 }

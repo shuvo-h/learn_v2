@@ -7,6 +7,8 @@
     text-align: center;
     background-color: lightcyan;
 }
+
+/* selected candidates style  */
 .token-container{
     height: 300px;
     overflow-y: auto;
