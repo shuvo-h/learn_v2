@@ -14,6 +14,8 @@
 .project-budget{
     margin-top: 0;
     transform: translateX(15%);
+    color: rgb(76, 200, 76);
+    font-style: italic;
 }
 .banner{
     height: 180px;
