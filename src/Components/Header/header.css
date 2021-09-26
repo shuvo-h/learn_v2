@@ -4,12 +4,16 @@
     text-align: center;
     align-items: center;
     background-image: url(../../images/header-cover.jpg);
-    
-    
 }
 .header-container h1{
     font-family: cursive;
+    font-size: 40px;
     color: white;
+    margin-bottom: 0;
+}
+.project-budget{
+    margin-top: 0;
+    transform: translateX(15%);
 }
 .banner{
     height: 180px;

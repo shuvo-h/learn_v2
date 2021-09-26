@@ -10,11 +10,14 @@ const Cart = (props) => {
     }
     return (
         <div className='cart-info'>
-            <p>Selected candidates: {selects.length} </p>
-            <p>Total Bid Amount: ${totalAmount}</p> 
-            {
-                selects.map(select => <SelectedEngineer key={select.id} select={select}></SelectedEngineer>)
-            }
+            <h3><u>Selected Candidates</u></h3>
+            <p>Total select: <strong>{selects.length}</strong></p>
+            <p>Total Bid Amount: <strong>${totalAmount}</strong></p> 
+            <div className="token-container">
+                {
+                    selects.map(select => <SelectedEngineer key={select.id} select={select}></SelectedEngineer>)
+                }
+            </div>
         </div>
     );
 };

@@ -8,7 +8,7 @@ const Header = () => {
         <div className='header-container'>
             <div>
                 <h1>Asian Satelite 2</h1>
-                <h2>Total Budget $500000</h2>
+                <h2 className='project-budget'>Total Budget $800 million</h2>
             </div>
             <img className='banner' src={Banner} alt="" />
             

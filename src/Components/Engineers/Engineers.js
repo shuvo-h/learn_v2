@@ -9,7 +9,7 @@ const Engineers = () => {
     useEffect(()=>{
         fetch('/engineers.json')
             .then(res=>res.json())
-            .then(data=>setEngineers(data))
+            .then(data=>setEngineers(data.satEngineers))
     },[]);
     const handleSelect = (props) =>{
         if(!selects.includes(props)){

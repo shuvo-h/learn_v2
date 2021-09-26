@@ -3,7 +3,7 @@ import './engineer.css';
 import { ImUserCheck } from "react-icons/im";
 
 const Engineer = (props) => {
-    const {name, position, avater, email, expectedSalary, jobExperience, bidAmount}= props.engineer;
+    const {name, position, avater, email, projects, jobExperience, bidAmount}= props.engineer;
     // console.log(props);
     return (
         <div className='engineer-container'>
@@ -12,17 +12,17 @@ const Engineer = (props) => {
             </div>
             <div className='info'>
                 <div>
-                    <p><strong>{name}</strong></p>
+                    <p className="profile-name"><strong>{name}</strong></p>
                     <p>Position: {position}</p>
-                    <p>Email: {email}</p>
-                    <p>Salary: ${expectedSalary}</p>
-                    <p>Experience: {jobExperience} years</p>
+                    <p>Email: <i>{email}</i></p>
+                    <p>Completed projects: {projects}</p>
+                    <p>Job experience: {jobExperience} years</p>
 
                 </div>
-                <div className='select-amount-container'>
+                <div>
                     <div className='select-amount'>
-                        <p className='bid'>Bid Amount: ${bidAmount}</p>
-                        <button onClick={()=>props.handleSelect(props.engineer)}><ImUserCheck className='select-icon' /> Select</button>
+                        <p className='bid'>Bid Amount: <br /><span className='amount'>${bidAmount}</span></p>
+                        <button className='btn-regular' onClick={()=>props.handleSelect(props.engineer)}><ImUserCheck className='select-icon' /> Select</button>
                     </div>
                 </div>
             </div>

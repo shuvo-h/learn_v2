@@ -5,17 +5,23 @@
     border-right: 10px solid;
     border-image: linear-gradient(seagreen, orange);
     border-image-slice: 1;
-
 }
 .token-img{
-    width: 70px;
+    width: 50px;
+    height: 50px;
     overflow: hidden;
     border-bottom-left-radius: 50%;
     border-top-left-radius: 50%;
 }
+.token-icon{
+    color: green;
+    font-size: 25px;
+
+}
 .token-name{
-    background-color: lightgreen;
+    background-color: rgb(178, 228, 178);
     margin: 0;
-    text-align: center;
-    align-items: center;
+    text-align: left;
+    padding-left: 8px;
+    font-size: 18px;
 }
