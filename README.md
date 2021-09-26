@@ -1,5 +1,5 @@
 
-![Logo](/public/logo.png)
+![Logo](/logo.png)
 
     
 # Asian Satellite 2
@@ -7,6 +7,8 @@
 It is a project to build and lunch "Asian Satellite 2". To complete this project, Engineers, applied for various post will be selected from here. 
 This website will show all the candidates who have applied for this job. 
 
+## 🔗 Live Site
+[![Asian Satellite 2](/public/logo.png)](https://asian-satellite-2.netlify.app/)
 
 ## Data Reference
 
