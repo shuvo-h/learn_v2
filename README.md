@@ -9,7 +9,7 @@ This website will show all the candidates who have applied for this job.
 
 ## 🔗 Live Site
 [![Asian Satellite 2](/public/logo.png)](https://asian-satellite-2.netlify.app/)
- [Asian Satellite 2](https://asian-satellite-2.netlify.app/)
+- [Asian Satellite 2](https://asian-satellite-2.netlify.app/)
 
 ## Data Reference
 
