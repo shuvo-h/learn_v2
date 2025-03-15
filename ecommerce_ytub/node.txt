@@ -1,0 +1,80 @@
+1. PHP Fundamentals (If new to PHP)
+✅ Syntax, Variables, Constants
+✅ Data Types, Operators
+✅ Conditionals & Loops
+✅ Functions (Named, Anonymous, Arrow)
+✅ Superglobals ($_GET, $_POST, $_SESSION, $_COOKIE)
+
+2. Object-Oriented PHP (OOP)
+✅ Classes & Objects
+✅ Constructors & Destructors
+✅ Inheritance, Polymorphism
+✅ Interfaces & Abstract Classes
+✅ Traits & Magic Methods (__get, __set, __call)
+✅ Namespaces & Autoloading (PSR-4)
+
+3. Working with Databases
+✅ MySQL & PostgreSQL with PDO
+✅ SQL Joins, Indexing, Optimization
+✅ ORM (Eloquent, Doctrine)
+✅ Transactions & ACID properties
+✅ Query Builder vs Raw Queries
+
+4. Error Handling & Debugging
+✅ try-catch Exception Handling
+✅ Custom Exception Classes
+✅ PHP Error Handling (error_reporting, set_error_handler)
+✅ Debugging with Xdebug
+
+5. File Handling & Processing
+✅ Reading/Writing Files
+✅ Uploading & Handling Large Files
+✅ CSV & Excel File Processing
+✅ Image Manipulation (GD, ImageMagick)
+
+6. API Development & Integration
+✅ RESTful API with PHP (using Slim or Laravel)
+✅ Working with JSON & XML
+✅ Authentication (JWT, OAuth, API keys)
+✅ Rate Limiting & Caching (Redis, Memcached)
+✅ Handling Webhooks
+
+7. PHP Security (Critical for Mastery)
+✅ SQL Injection Prevention
+✅ XSS & CSRF Protection
+✅ Hashing & Password Storage (bcrypt, Argon2)
+✅ Secure File Uploads
+✅ Server Hardening & HTTPS
+
+8. Performance Optimization
+✅ Opcode Caching (OPcache)
+✅ Profiling (Blackfire, Xdebug)
+✅ Lazy Loading & Preloading
+✅ Asynchronous Processing with Swoole
+✅ Message Queues (RabbitMQ, Redis Pub/Sub)
+
+9. Advanced PHP Concepts
+✅ Dependency Injection
+✅ Design Patterns (Factory, Singleton, Observer, etc.)
+✅ PHP Fiber (Concurrency)
+✅ Working with Streams & Sockets
+✅ Event-Driven PHP
+
+10. Modern PHP Frameworks
+✅ Laravel (Most popular)
+✅ Symfony (For enterprise-level apps)
+✅ CodeIgniter (Lightweight, good for small apps)
+✅ Phalcon (Fastest PHP framework)
+
+11. Unit Testing & CI/CD
+✅ PHPUnit & Pest for testing
+✅ Mocking & Dependency Injection in tests
+✅ CI/CD with GitHub Actions or Jenkins
+✅ Dockerizing PHP applications
+
+12. Building Scalable PHP Applications
+✅ Microservices Architecture with PHP
+✅ Handling Background Jobs (Laravel Queue, Gearman)
+✅ Load Balancing & Horizontal Scaling
+✅ Serverless PHP with Bref on AWS
+
