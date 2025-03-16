@@ -4,6 +4,9 @@
             <a href="/">Home</a>
         </li>
         <li class="Xbg-sky-400">
+            <a href="/notes">Notes</a>
+        </li>
+        <li class="Xbg-sky-400">
             <a href="/about">about</a>
         </li>
         <li>

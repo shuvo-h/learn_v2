@@ -8,7 +8,7 @@ class Database {
     private $dbserver = "";
     private $dbuser = "s";
     private $dbport = "3306";
-    private $dbname = "sql12766887";
+    private $dbname = "";
     private $dbpassword="";
     protected $conn;
 
