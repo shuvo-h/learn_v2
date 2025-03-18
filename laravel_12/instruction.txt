@@ -1,0 +1,116 @@
+>> composer create-project --prefer-dist laravel/laravel <project_name>
+>> composer install             // to run install deppendencies
+>> php artisan serve --port=3000            // to run the laravel server
+>> php artisan key:generatete   // if missing applicatin key, generate a new one
+>> php artisan about            // show project information
+
+
+
+
+>> php artisan session:table    // this will create session table migration file for database
+>> php artisan migrate          // migrate the database
+
+cache the laravel routes
+>> php artisan route:cache      // in production, it will create cache of the routes
+>> php artisan route:clear      // clear the route cache 
+>> php artisan route:list       // to see the list of APIs we have in the app
+
+
+controller 
+>> php artisan make:controller <newControllerName>                  // create a controller
+>> php artisan make:controller <newControllerName> --invokable     // create a controller with __invoke method which will run automatically
+>> php artisan make:controller <newControllerName> --resource       // create a controller with CRUD methods  
+>> php artisan make:controller <newControllerName> --api            // create a controller without edit & insert method
+
+
+
+
+conditinal blade drivative
+// if the condition is true
+@if(){}
+@elseif(){}
+@else{}
+
+// if the condition is wrong
+@unless(){}
+@endunless
+
+// check if a variable exist or not
+@isset($varName){}
+@endisset
+
+// check if a variable is empty or length 0
+@empty($varName){}
+@endempty
+
+// check if user is authenticated or not
+@auth{}
+@endauth
+
+// switch catch
+@switch($country)
+    @catch('usa')
+        @break
+    @default
+@endswitch
+
+// learn loop
+// $loop : it has many properties to access $loop->index,iteration,remaining,count,first,last,even,odd,depth,parent,
+// to debug the loop object:    dd($loop)
+
+@for($i=0; $i<n; $i++)
+@endfor
+
+
+@foreach($cars a $car)
+    <p> Model: {{ $car->model }} </p>
+    {{ dd($loop) }}
+@endforeach
+
+
+@forelse($cars as $car)
+    <p>{{ $car->model }}</p>
+@empty
+    <p>No cars</p>
+@endforelse
+
+@while(false)
+@endwhile
+
+
+nested condition with BREAK & CONTINUE 
+@foreach($numbers as $number)
+    @if($number == 2)
+        @continue
+    @endif
+    @if($number == 5)
+        @break
+    @endif
+    <p>{{ $number }}</p>
+@endforeach
+
+
+
+
+// conditional className & style
+ <div 
+    @class([
+        'class_1',
+        'class_2' => $country === 'usa'
+    ])
+    @style([
+        'color: green',
+        'background-color: cyan' => $country === 'uk'
+    ])
+>
+    My text
+</div>
+
+
+
+
+to call components we use 
+@include("shared.button",['color'=>'skyblue','text'=>'click me'])
+@includeIf("shared.button",['color'=>'skyblue','text'=>'click me'])
+@includeWhen($myCondition,"shared.button",['color'=>'skyblue','text'=>'click me'])
+@includeUnless(!$myCondition,"shared.button",['color'=>'skyblue','text'=>'click me'])
