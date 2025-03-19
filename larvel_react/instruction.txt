@@ -1,0 +1,21 @@
+Step 1:
+>> laravel new <project_name>       // to create a new project
+>> composer run dev                 // to run the server
+>> php artisan serve                //it also run the server 
+>> php artisan migrate
+
+Step 2:
+// create a tabe in DB
+>> php artisan make:migration create_<tableName>_table      // create a new table migration file
+>> php artisan migrate                                      // push migration into DB. go to > database/migrations/xxx_create_posts_table.php
+>> php artisan make:model <modelName>                       // create a ORM model.      got to > app/Models/Post.php
+>> php artisan make:controller <ControllerName> --resource  // create a controller file.      got to > app/Http/Controllers/PostController.php
+    -- routes/web.php                               // go to here and include the route for that controller
+>> php artisan route:list                           // check that new resource routes were created or not
+    -- resources/js/components/app-sidebar.tsx      // go to here to add new route in sidebar of dashboard
+
+
+
+
+
+

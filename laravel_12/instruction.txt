@@ -23,6 +23,22 @@ controller
 >> php artisan make:controller <newControllerName> --api            // create a controller without edit & insert method
 
 
+migration table 
+>> php artisan migrate:status                                       // show if database migrate need or not
+>> php artisan make:migration create_<table_name>_table             // create a table migration model
+>> php artisan migrate --pretend                                    // after chage any migrate file, do this to generate migration script code
+>> php artisan migrate                                              // it will migrate the changes of table into database
+
+make ORM models 
+>> php artisan make:model <Model_name> -mc                           // create a new ORM model, -mc is model+controller+migration
+
+
+
+
+
+
+
+
 
 
 conditinal blade drivative
