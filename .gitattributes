@@ -1,1 +1,2 @@
 *.ts linguist-vendored
+*.php linguist-language=PHP
